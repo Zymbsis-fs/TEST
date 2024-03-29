@@ -35,7 +35,7 @@ function closeTeamModalHandler(e) {
 }
 
 function teamModalItemMarkup(
-  { linkedIn, devName, position, photo, description, key, pathToPhoto },
+  { linkedIn, devName, position, description, key, pathToPhoto },
   icon
 ) {
   return `<li class="team-modal-item">
